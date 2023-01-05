@@ -5,7 +5,6 @@ class Robot2 {
 
         this.speed = 93;
         this.x = 1500;
-        this.y = 180;
 
     };
 
@@ -16,6 +15,6 @@ class Robot2 {
     };
 
     draw(ctx) {
-        this.animator.drawframe(this.game.clockTick, ctx, this.x,this.y)
+        this.animator.drawframe(this.game.clockTick, ctx, this.x,180)
     };
 }
