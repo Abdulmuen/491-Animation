@@ -15,6 +15,6 @@ class Robot2 {
     };
 
     draw(ctx) {
-        this.animator.drawframe(this.game.clockTick, ctx, this.x,180)
+        this.animator.drawframe(this.game.clockTick, ctx, this.x,260)
     };
 }
