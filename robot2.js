@@ -5,7 +5,7 @@ class Robot2 {
 
         this.speed = 93;
         this.x = 1500;
-        this.y = 0;
+        this.y = 180;
 
     };
 
